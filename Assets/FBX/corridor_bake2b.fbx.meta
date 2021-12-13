@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 19596d5be14021348a2c2ebf07bb9b99
+guid: a2d3cba4d63d3964f9cdff57c8cf9a75
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,90 +8,56 @@ ModelImporter:
     100004: Corridor
     100006: //RootNode
     100008: floor
-    100010: Point
-    100012: Point.001
-    100014: Point.002
-    100016: Point.003
-    100018: Torch_proxy
-    100020: Torch_proxy.001
-    100022: Torch_proxy.002
-    100024: Torch_proxy.003
-    100026: Torch_proxy.004
-    100028: Torch_proxy.005
+    100010: Torch.000
+    100012: Torch.01
+    100014: Torch.03
+    100016: Torch.04
+    100018: Torch.02
     400000: beams
     400002: ceiling
     400004: Corridor
     400006: //RootNode
     400008: floor
-    400010: Point
-    400012: Point.001
-    400014: Point.002
-    400016: Point.003
-    400018: Torch_proxy
-    400020: Torch_proxy.001
-    400022: Torch_proxy.002
-    400024: Torch_proxy.003
-    400026: Torch_proxy.004
-    400028: Torch_proxy.005
-    2100000: corridor_beam
-    2100002: corridor_ceiling
-    2100004: corridor_floor
-    2100006: corridor_walls
-    2100008: torch_cycles
-    2100010: fire_cycles
+    400010: Torch.000
+    400012: Torch.01
+    400014: Torch.03
+    400016: Torch.04
+    400018: Torch.02
+    2100000: corridor_torch
+    2100002: corridor_beam
+    2100004: corridor_ceiling
+    2100006: corridor_floor
+    2100008: corridor_walls
     2300000: beams
     2300002: ceiling
     2300004: Corridor
     2300006: floor
-    2300008: Torch_proxy
-    2300010: Torch_proxy.001
-    2300012: Torch_proxy.002
-    2300014: Torch_proxy.003
-    2300016: Torch_proxy.004
-    2300018: Torch_proxy.005
+    2300008: Torch.000
+    2300010: Torch.01
+    2300012: Torch.03
+    2300014: Torch.04
+    2300016: Torch.02
+    2300018: //RootNode
     3300000: beams
     3300002: ceiling
     3300004: Corridor
     3300006: floor
-    3300008: Torch_proxy
-    3300010: Torch_proxy.001
-    3300012: Torch_proxy.002
-    3300014: Torch_proxy.003
-    3300016: Torch_proxy.004
-    3300018: Torch_proxy.005
-    4300000: beams
-    4300002: ceiling
-    4300004: floor
-    4300006: Corridor
-    4300008: Torch_proxy.005
-    4300010: Torch_proxy
-    4300012: Torch_proxy.003
-    4300014: Torch_proxy.002
-    10800000: Point
-    10800002: Point.001
-    10800004: Point.002
-    10800006: Point.003
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: corridor_beam
-    second: {fileID: 2100000, guid: 8e7d225e71eee0945bdbd590068d8d70, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: corridor_ceiling
-    second: {fileID: 2100000, guid: dad35e9094a177049b3964336c04b9d9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: corridor_floor
-    second: {fileID: 2100000, guid: c0a474eaaf0fb624f90fff5bf727f342, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: corridor_walls
-    second: {fileID: 2100000, guid: 6ffc3e20ecba0e84fa6d7b2a94d20db7, type: 2}
+    3300008: Torch.000
+    3300010: Torch.01
+    3300012: Torch.03
+    3300014: Torch.04
+    3300016: Torch.02
+    3300018: //RootNode
+    4300000: Torch.000
+    4300002: Torch.04
+    4300004: Torch.03
+    4300006: beams
+    4300008: ceiling
+    4300010: floor
+    4300012: Corridor
+    4300014: Torch.01
+    4300016: Torch.02
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
